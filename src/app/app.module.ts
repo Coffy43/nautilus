@@ -15,6 +15,8 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { EquipmentComponent } from './pages/equipment/equipment.component';
+import { MatRippleModule } from '@angular/material/core';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAAtAleMHfq--PtoKRxCFlwuMlnYTvjsW0",
@@ -33,7 +35,8 @@ const firebaseConfig = {
     HomeComponent,
     AboutComponent,
     TopnavComponent,
-    StaffComponent
+    StaffComponent,
+    EquipmentComponent
     
   ],
   imports: [
@@ -43,6 +46,7 @@ const firebaseConfig = {
     MatSliderModule,
     MatButtonModule,
     MatCardModule,
+    MatRippleModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFirestoreModule, 
     AngularFireAuthModule, 
