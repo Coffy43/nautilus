@@ -1,0 +1,42 @@
+.containerSelect{
+    display: flex;
+    height:94.36vh;
+}
+
+.containerSelectEq{
+    display: flex;
+    height:94.36vh;
+    flex-wrap: wrap;
+}
+
+.naut{
+    background-color: blue;
+    width:50vw;
+}
+
+.ken{
+    background-color: blueviolet;
+    width:50vw;
+}
+
+.naut:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.ken:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.naut img{
+    height: 94.36vh;
+    width: 50vw;
+}
+
+.ken img{
+    height: 94.36vh;
+    width: 50vw;
+}
+
+
